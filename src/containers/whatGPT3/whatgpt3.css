@@ -1,0 +1,102 @@
+.gpt3--whatgpt3{
+    width:80%;
+    height:695px;
+    display:flex;
+    flex-direction: column;
+    background: var(--color-footer);
+    padding:2rem;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.gpt3--whatgpt3--feature{
+    display:flex;
+    flex:1;
+}
+
+.gpt3--feature--container h1,
+.gpt3--whatgpt3--feature h1{
+    font-size:24px;
+}
+
+.gpt3--feature--container p,
+.gpt3--whatgpt3--feature p{
+    font-size:18px;
+}
+
+.gpt3--whatgpt3--heading{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex:1;
+}
+
+.gpt3--whatgpt3--heading h1{
+    font-size:34px;
+}
+.gpt3--whatgpt3--heading p{
+    font-size:20px;
+}
+
+
+.gpt3--whatgpt3--container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.gpt3--whatgpt3--container .gpt3--feature--container{
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.gpt3--whatgpt3--container .gpt3--feature--container--content {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1050px){
+    .gpt3--whatgpt3{
+        width:770px;
+        height:695px;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .gpt3--whatgpt3{
+        width:670px;
+        height:100%;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .gpt3--whatgpt3{
+        width:570px;
+        height:100%;
+        margin-left: 1.5rem;
+    }
+}
+
