@@ -86,19 +86,19 @@ a{
   }
 
   @media screen and (max-width: 700px){
-    .section--padding:{
+    .section--padding{
         padding: 4rem;
     }
-    .section--margin:{
+    .section--margin{
         margin: 4rem;
     }
   }
 
   @media screen and (max-width: 550px){
-    .section--padding:{
+    .section--padding{
         padding: 4rem 2rem;
     }
-    .section--margin:{
+    .section--margin{
         margin: 4rem 2rem;
     }
   }
